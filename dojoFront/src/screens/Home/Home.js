@@ -10,6 +10,9 @@ import { FontAwesome6 } from '@expo/vector-icons';
 import { AntDesign } from '@expo/vector-icons';
 
 
+//Funções
+
+
 export function Home() {
     return (
         <Container>
@@ -36,10 +39,15 @@ export function Home() {
             </ContainerButton>
 
             <ContainerButtonPlay>
+
                 <PlayButton>
+
                     <AntDesign name="caretright" size={30} color="black" />
+
                 </PlayButton>
+
                 <Line/>
+
             </ContainerButtonPlay>
 
 

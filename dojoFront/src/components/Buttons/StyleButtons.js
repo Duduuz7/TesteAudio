@@ -37,6 +37,7 @@ export const ContainerButton = styled.View`
 export const ContainerButtonPlay = styled.View`
   width: 86%;
   flex-direction: row;
+  padding-left: 32px;
   margin-top: 12px;
   padding-top: 11px;
   gap: 5px;
@@ -48,12 +49,13 @@ export const ContainerButtonPlay = styled.View`
 `
 
 export const PlayButton = styled.TouchableOpacity`
-
+  margin-bottom: 10px;
   align-items: center;
   justify-content: center;
 `
 
 export const Line = styled.View`
+  margin-top: 15px; 
   width: 230px;
   height: 3px;
   background-color: black;
