@@ -34,4 +34,27 @@ export const ContainerButton = styled.View`
     flex-direction: row;
     gap: 5px;
 `
+export const ContainerButtonPlay = styled.View`
+  width: 86%;
+  flex-direction: row;
+  margin-top: 12px;
+  padding-top: 11px;
+  gap: 5px;
+  background-color: #9A8AEB;
+  height: 55px;
+  border-radius: 8px;
+  justify-self:center;
+  align-self:center;
+`
 
+export const PlayButton = styled.TouchableOpacity`
+
+  align-items: center;
+  justify-content: center;
+`
+
+export const Line = styled.View`
+  width: 230px;
+  height: 3px;
+  background-color: black;
+`

@@ -1,11 +1,13 @@
 
-import { ButtonAudio, ButtonConvert, ButtonText, ContainerButton } from "../../components/Buttons/StyleButtons";
+import { ButtonAudio, ButtonConvert, ButtonText, ContainerButton, ContainerButtonPlay, Line, PlayButton } from "../../components/Buttons/StyleButtons";
 import { Header } from "../../components/Header/Header";
 import { InputHigh } from "../../components/Input/Input";
 import { ContainerTitle, Title, UnderTitle } from "../../components/Titles/StyleTitle";
 import { Container, ContainerForm, ScrollContainer } from "./StyleHome";
 
 import { FontAwesome6 } from '@expo/vector-icons';
+
+import { AntDesign } from '@expo/vector-icons';
 
 
 export function Home() {
@@ -32,6 +34,13 @@ export function Home() {
                 <ButtonAudio><FontAwesome6 name="microphone" size={24} color="black" /></ButtonAudio>
 
             </ContainerButton>
+
+            <ContainerButtonPlay>
+                <PlayButton>
+                    <AntDesign name="caretright" size={30} color="black" />
+                </PlayButton>
+                <Line/>
+            </ContainerButtonPlay>
 
 
         </Container>
